@@ -82,7 +82,6 @@
                   nalepi+='<td>'+obj.korisnik.ime + ' ' + obj.korisnik.prezime +'</td>';
                   nalepi+='<td>'+obj.vozilo.marka +'</td>';
                   nalepi+='<td>'+obj.vozilo.model +'</td>';
-                  
                   nalepi+='<td>'+obj.vozilo.regBr +'</td>';
                   nalepi+='<td>'+obj.datumOd+'</td>';
                   nalepi+='<td>'+obj.datumDo+'</td>';
