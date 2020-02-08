@@ -65,7 +65,7 @@
           var nalepi='<table class="table table-hover">';
           nalepi+='<thead>';
           nalepi+='<tr>';
-          nalepi+='<th>ID</th>';
+          // nalepi+='<th>ID</th>';
           nalepi+='<th>Korisnik</th>';
           nalepi+='<th>Marka vozila</th>';
           nalepi+='<th>Model vozila</th>';
@@ -81,7 +81,7 @@
 
           $.each($.parseJSON(json), function(idx, obj) {
                   nalepi+='<tr>';
-                  nalepi+='<td>'+obj.iznajmljivanjeID+'</td>';
+                  // nalepi+='<td>'+obj.iznajmljivanjeID+'</td>';
                   nalepi+='<td>'+obj.korisnik.ime + ' ' + obj.korisnik.prezime +'</td>';
                   nalepi+='<td>'+obj.vozilo.marka +'</td>';
                   nalepi+='<td>'+obj.vozilo.model +'</td>';
