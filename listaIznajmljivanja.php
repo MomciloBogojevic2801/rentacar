@@ -71,7 +71,6 @@
           nalepi+='<th>Datum Od</th>';
           nalepi+='<th>Datum Do</th>';
           nalepi+='<th>Cena po danu</th>';
-        //   nalepi+='<th>Ukupna cena</th>';
           
           nalepi+='</tr>';
           nalepi+='</thead>';
