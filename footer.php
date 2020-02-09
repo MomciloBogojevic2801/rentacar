@@ -13,7 +13,7 @@
             <a href="#"><i class="icon-dribbble2"></i></a>
             <a href="#"><i class="icon-youtube"></i></a>
           </p>
-          <p>&copy; Renta Car 2020</p>
+          <p>&copy;Renta Car 2020</p>
         </div>
       </div>
     </div>

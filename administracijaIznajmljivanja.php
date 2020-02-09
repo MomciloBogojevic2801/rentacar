@@ -65,7 +65,6 @@
           var nalepi='<table class="table table-hover">';
           nalepi+='<thead>';
           nalepi+='<tr>';
-          // nalepi+='<th>ID</th>';
           nalepi+='<th>Korisnik</th>';
           nalepi+='<th>Marka vozila</th>';
           nalepi+='<th>Model vozila</th>';
@@ -73,7 +72,6 @@
           nalepi+='<th>Datum od</th>';
           nalepi+='<th>Datum do</th>';
           nalepi+='<th>Cena po danu</th>';
-        //   nalepi+='<th>Izmeni</th>';
           nalepi+='<th>Obrisi</th>';
           nalepi+='</tr>';
           nalepi+='</thead>';
@@ -81,11 +79,9 @@
 
           $.each($.parseJSON(json), function(idx, obj) {
                   nalepi+='<tr>';
-                  // nalepi+='<td>'+obj.iznajmljivanjeID+'</td>';
                   nalepi+='<td>'+obj.korisnik.ime + ' ' + obj.korisnik.prezime +'</td>';
                   nalepi+='<td>'+obj.vozilo.marka +'</td>';
                   nalepi+='<td>'+obj.vozilo.model +'</td>';
-                  
                   nalepi+='<td>'+obj.vozilo.regBr +'</td>';
                   nalepi+='<td>'+obj.datumOd+'</td>';
                   nalepi+='<td>'+obj.datumDo+'</td>';

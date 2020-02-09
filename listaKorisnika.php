@@ -35,7 +35,7 @@
 
 		<div id="glavni-work-section">
 			<div class="container">
-		  <h1 class="naslov text-center"> Lista korisnika </h1>
+		  <h1 class="naslov text-center">Korisnici</h1>
 		  
 		 <input type="text" id="filter">
 		  <div id="lista">
